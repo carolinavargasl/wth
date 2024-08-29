@@ -19,8 +19,8 @@ const Hours = () => {
 
   return (
     <div>
-      <h2>Horas de hoy ({dayName}):</h2>
-      <p>{todayHours}</p>
+      <h2>Horas de hoy <b>({dayName})</b>:</h2>
+      <p><b>{todayHours}</b></p>
     </div>
   );
 };
